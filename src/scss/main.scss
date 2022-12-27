@@ -18,6 +18,7 @@ body{
     background-color: var(--color-100);
 
     overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 
 .card h1{
@@ -61,9 +62,22 @@ a.btn{
 
     text-align: center;
     border-radius: 1rem;
+
+    font-weight: 500;
 }
 
 .btn--primary{
+    transition: all .2s ease-in-out;
     background-color: var(--color-500);
     color: var(--color-100);
+
+    &:hover{
+        background-color: #483fb0;
+        box-shadow: 0px 2rem 5px var(--color-200);
+        transform: translateY(-.2rem) scale(1.02);
+    }
+
+    &:active{
+        transform: translateY(.1rem) scale(.98);
+    }
 }
