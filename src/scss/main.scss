@@ -1,2 +1,69 @@
 @import './reset';
 @import './variables';
+
+body{
+    background-image: url('../img/pattern-background-desktop.svg');
+    background-color: var(--color-200);
+    background-repeat: repeat-x;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.card{
+    max-width: 37.5rem;
+    border-radius: 2rem;
+    background-color: var(--color-100);
+
+    overflow: hidden;
+}
+
+.card h1{
+    margin-top: var(--spacing-large);
+    margin-bottom: var(--spacing-normal);
+    text-align: center;
+}
+
+.card p{
+    max-width: 30ch;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.plan-component{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    margin: 3rem;
+    padding: 2rem;
+    background-color: #ebeff9;
+    border-radius: 1rem;
+}
+
+.plan-component__left-box{
+    display: flex;
+    column-gap: var(--spacing-small);
+    h2{
+        font-size: 1.8rem;
+    }
+}
+
+a.btn{
+    display: block;
+    
+    margin-left: 3rem;
+    margin-right: 3rem;
+    padding: 2rem;
+
+    text-align: center;
+    border-radius: 1rem;
+}
+
+.btn--primary{
+    background-color: var(--color-500);
+    color: var(--color-100);
+}
