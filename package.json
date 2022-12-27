@@ -1,0 +1,17 @@
+{
+  "name": "ordersummarycomponent",
+  "version": "1.0.0",
+  "description": "made as a portfolio piece; design from frontend mentor",
+  "source": "src/index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "author": "Sriveer Neerukonda",
+  "license": "MIT",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.2",
+    "parcel": "^2.8.2"
+  }
+}
