@@ -63,7 +63,7 @@ a.btn{
     text-align: center;
     border-radius: 1rem;
 
-    font-weight: 500;
+    font-weight: 700;
 }
 
 .btn--primary{
@@ -80,4 +80,9 @@ a.btn{
     &:active{
         transform: translateY(.1rem) scale(.98);
     }
+}
+
+.btn--secondary{
+    color: var(--color-600);
+    
 }
